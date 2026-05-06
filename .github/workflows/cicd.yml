@@ -21,4 +21,4 @@ jobs:
 
       - name: Run OPA Policy Check
         run: |
-          conftest test config.json --policy policy/
+          conftest test config.json --policy opa/
